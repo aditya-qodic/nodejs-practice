@@ -1,0 +1,20 @@
+{
+  "name": "serverwithoutexpress",
+  "version": "1.0.0",
+  "description": "This is the small project to create the sever without using express framework ",
+  "main": "serverwithoutexpress.js",
+  "type": "module",
+  "scripts": {
+    "start": "node serverwithexpress",
+    "dev": "nodemon serverwithexpress.js",
+    "test": "npm run test"
+  },
+  "author": "Aditya-qodic",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
